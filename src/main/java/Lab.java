@@ -9,6 +9,9 @@ public class Lab {
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        return "";
+        String str1 = a;
+       String str2 = b;
+        String str3 = str1 + str2;
+        return str3 ;
     }
 }
